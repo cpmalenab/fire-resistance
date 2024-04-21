@@ -43,7 +43,7 @@ The findings of this research indicate that XGBoost demonstrates strong performa
 
 * [Exploratory Data Analysis](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Exploratory%20Data%20Analysis.ipynb) - contains data cleaning, feature engineering, and univariate up to multivariate analysis of the dataset.
 * [Linear Regression](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Linear%20Regression.ipynb), [Support Vector Regressor](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Support%20Vector%20Regressor.ipynb), [Random Forest and XGBoost](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Random%20Forest%20and%20XGBoost.ipynb)- covers base ML model initialization, hyperparameter tuning, feature importance anaylsis, and model error review of various models.
-* [Deep Neural Networks](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Deep%20Neural%20Networks.ipynb) - includes development of the neural network, class and function definitions for trainig/testing, and feature importance using SHAP DeepExplainer.
+* [Deep Neural Networks](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Deep%20Neural%20Networks.ipynb) - includes development of the neural network, class and function definitions for training/testing, and feature importance using SHAP DeepExplainer.
 
 ## Visualizations
 
