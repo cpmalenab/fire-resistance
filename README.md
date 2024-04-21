@@ -12,7 +12,7 @@ Existing methodologies for determining the fire performance of FRP-strengthened 
 * Utilized **Scikit-learn** to evaluate candidate machine learning models, including Linear Regression with ElasticNet, Support Vector Regressor, Random Forest, and XGBoost, using diverse performance metrics (R^2, RMSE, MAE) for assessment.
 * Employed **PyTorch** to design and train a five-layer Deep Neural Network with ReLU activation function and Adam optimizer, following a systematic evaluation of architecture over multiple iterations.
 * Determined feature importance across all models using **SHAP** (SHapley Additive exPlanations) to provide valuable insights into the most important features driving the predictive performance of the models.
-* Summarized the results through a research [paper](), providing in-depth analysis of model performance, feature relevance, and practical implications of the developed models for real-world use.
+* Summarized the results through a research [paper](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/paper/Prediction%20of%20Fire%20Resistance%20of%20Fiber-Reinforced%20Polymer-Strengthened%20Concrete%20Beams%20Using%20Machine%20Learning%20Techniques.pdf), providing in-depth analysis of model performance, feature relevance, and practical implications of the developed models for real-world use.
 
 <center>
 
@@ -41,9 +41,9 @@ The findings of this research indicate that XGBoost demonstrates strong performa
 
 ## Notebooks
 
-* [Exploratory Data Analysis]() - contains data cleaning, feature engineering, and univariate up to multivariate analysis of the dataset.
-* [Linear Regression](), [Support Vector Regressor](), [Random Forest and XGBoost]()- covers base ML model initialization, hyperparameter tuning, feature importance anaylsis, and model error review of various models.
-* [Deep Neural Networks]() - includes development of the neural network, class and function definitions for trainig/testing, and feature importance using SHAP DeepExplainer.
+* [Exploratory Data Analysis](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Exploratory%20Data%20Analysis.ipynb) - contains data cleaning, feature engineering, and univariate up to multivariate analysis of the dataset.
+* [Linear Regression](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Linear%20Regression.ipynb), [Support Vector Regressor](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Support%20Vector%20Regressor.ipynb), [Random Forest and XGBoost](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Random%20Forest%20and%20XGBoost.ipynb)- covers base ML model initialization, hyperparameter tuning, feature importance anaylsis, and model error review of various models.
+* [Deep Neural Networks](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/notebooks/Deep%20Neural%20Networks.ipynb) - includes development of the neural network, class and function definitions for trainig/testing, and feature importance using SHAP DeepExplainer.
 
 ## Visualizations
 
