@@ -11,8 +11,8 @@ Existing methodologies for determining the fire performance of FRP-strengthened 
 * Conducted feature engineering and exploratory data analysis to prepare the dataset for optimal utilization by machine learning models.
 * Utilized **Scikit-learn** to evaluate candidate machine learning models, including Linear Regression with ElasticNet, Support Vector Regressor, Random Forest, and XGBoost, using diverse performance metrics (R^2, RMSE, MAE) for assessment.
 * Employed **PyTorch** to design and train a five-layer Deep Neural Network with ReLU activation function and Adam optimizer, following a systematic evaluation of architecture over multiple iterations.
+* Performed hyperparameter tuning using random search (RandomizedSearchCV) with five-fold cross validation, and achieved an R^2 of 94% and around 10% error relative to the mean for the best performing model. 
 * Determined feature importance across all models using **SHAP** (SHapley Additive exPlanations) to provide valuable insights into the most important features driving the predictive performance of the models.
-* Summarized the results through a research [paper](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/paper/Prediction%20of%20Fire%20Resistance%20of%20Fiber-Reinforced%20Polymer-Strengthened%20Concrete%20Beams%20Using%20Machine%20Learning%20Techniques.pdf), providing in-depth analysis of model performance, feature relevance, and practical implications of the developed models for real-world use.
 
 <center>
 
@@ -27,6 +27,8 @@ Existing methodologies for determining the fire performance of FRP-strengthened 
 </center>
 
 The findings of this research indicate that XGBoost demonstrates strong performance in overall fire resistance prediction, while Deep Neural Networks excel particularly in capturing extreme values of fire resistance. Key factors influencing fire resistance prediction include load ratio, insulation depth, steel area, concrete cover, and total load. By showcasing the effectiveness of machine learning methods, this study emphasizes their potential to address highly nonlinear problems in classical engineering domains where conventional knowledge-based approaches may prove impractical or unfeasible. The automated nature of these approaches holds promise for significant time and resource savings, reducing reliance on manual effort.
+
+For an extensive discussion of model performance, feature significance, and real-world applicability of the developed models, please refer to this [research paper](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/paper/Prediction%20of%20Fire%20Resistance%20of%20Fiber-Reinforced%20Polymer-Strengthened%20Concrete%20Beams%20Using%20Machine%20Learning%20Techniques.pdf).
 
 ## Tools
 
